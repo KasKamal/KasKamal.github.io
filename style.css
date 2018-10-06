@@ -1,0 +1,102 @@
+img {
+  width: 100%;
+}
+
+.profile-picture {
+  max-width: 200px;
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 25px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+
+
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* Centered text */
+.centered {
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.name {
+  font-size: 50pt;
+}
+
+.subtitle {
+  font-size: 20pt;
+}
+
+.social-links {
+  list-style: none;
+  padding-left: 0px;
+  font-size: 40px;
+}
+
+.social-links li {
+  display: inline-block;
+  margin-right: 8px;
+  font-weight: bold;
+}
+
+.social-links a {
+  text-decoration: none;
+  padding: 4px;
+}
+
+.social-links a:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
